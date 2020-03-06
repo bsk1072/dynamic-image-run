@@ -14,7 +14,6 @@ pipeline {
           checkout scm
               }
             }
-          }
         stage('Setup Image Properties') {
           steps{
             script {
@@ -31,5 +30,5 @@ pipeline {
             }
           }
         }
-    }
+	}
 }
